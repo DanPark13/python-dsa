@@ -1,4 +1,5 @@
 from hashSet import HashSet
+from trie import Trie
 
 # Test Hash Set
 myHashSet = HashSet()
@@ -11,3 +12,7 @@ print(myHashSet.contains(2))
 myHashSet.remove(2)
 print(myHashSet.contains(2))
 print(myHashSet)
+
+# Test Trie
+myTrie = Trie()
+
